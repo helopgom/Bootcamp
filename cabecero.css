@@ -1,0 +1,148 @@
+*{
+    font-family: 'inter', sans-serif ;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 6px 5px #020e0e14;
+    height: 10%;
+    font-size: 12px;
+    color:#57626B;
+}
+.watches{
+    color:#1a73e8;
+    font-weight: bold;
+}
+.earbuds{
+
+    color:#57626B;
+    text-decoration: none;
+}
+.menu{
+    display: none;
+}
+.cabecero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    margin-left: 1%;
+}
+.logo-google{
+    height: 33px;
+    width: 35px;
+    /*position: absolute;*/
+    top: 3px;
+    left: 19px;
+    object-fit: contain;
+    z-index: 1;
+}
+.iconos-arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    margin-right: 10px;
+}
+
+
+/* Media query para tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    *{
+        font-family: 'inter', sans-serif ;
+    }
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0 6px 5px #020e0e14;
+        height: 10%;
+        font-size: 12px;
+        color:#57626B;
+    }
+    .watches{
+        color:#1a73e8;
+        font-weight: bold;
+    }
+    .earbuds{
+       margin-top: 12px;
+
+    }
+
+    .menu{
+        display: none;
+    }
+    .cabecero {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: start;
+        width: 90%;
+        
+    }
+  
+    .iconos-arriba {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        margin-left: 8%;
+    }
+}
+
+/* Media query para móviles */
+@media screen and (max-width: 767px) {
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: 0 6px 5px #020e0e14;
+        height: 10%;
+        font-size: 12px;
+        color:#57626B;
+    }
+    .watches, .phones, .earbuds, .smart-home, .accessories, .subscriptions{
+        display:none;
+    }
+    .cabecero {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: end;
+        width: 90%;
+        
+    }
+    .menu{
+        display:block;
+        width:25px;
+    }
+   
+  
+    .iconos-arriba {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+        
+    }
+    
+
+}
+
+
+
+
+
