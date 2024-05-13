@@ -1,0 +1,476 @@
+*{
+    font-family: 'inter', sans-serif ;
+}
+
+/*parte de la izquierda*/
+
+.verMas{
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 7px;;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    align-items: center;
+    justify-content: space-start;
+    margin-left: 30px;
+    width: 200px;
+    height: 10px;
+}
+.atras-flecha{
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.conjunto{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+
+.imagen-earbuds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 470px;
+    background-color: #F8F9FA;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.imagen-icon {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+
+
+.imagenes-pequeñas{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 250px;
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+   
+    button{
+        border: black 1px  solid;
+    }
+   
+.imagen1 {
+        background-image: url('earbuds/earbuds_01.png');
+        width: 45px;
+        height: 45px;
+        background-size: cover; /* Para ajustar la imagen al tamaño del botón */
+        background-position: center; /* Para centrar la imagen dentro del botón */
+        border-radius: 50%;
+}
+.imagen2 {
+        background-image: url('earbuds/earbuds_02.png');
+        width: 45px;
+        height: 45px;
+        background-size: cover; /* Para ajustar la imagen al tamaño del botón */
+        background-position: center; /* Para centrar la imagen dentro del botón */
+        border-radius: 50%;
+}
+.imagen3 {
+        background-image: url('earbuds/earbuds_03.png');
+        width: 45px;
+        height: 45px;
+        background-size: cover; /* Para ajustar la imagen al tamaño del botón */
+        background-position: center; /* Para centrar la imagen dentro del botón */
+        border-radius: 50%;
+}
+.imagen4 {
+        background-image: url('earbuds/earbuds_04.png');
+        width: 45px;
+        height: 45px;
+        background-size: cover; /* Para ajustar la imagen al tamaño del botón */
+        background-position: center; /* Para centrar la imagen dentro del botón */
+       
+        border-radius: 50%;
+}
+.derecha{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+   
+}
+.informacion{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.titulo{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.google-pixel-buds{
+    font-size: 35px;
+    font-weight: bold;
+    color: #353A49;
+    margin-top:80px;
+    
+    margin-bottom: 5%;
+}
+.color1{
+    width: 35px;
+    height: 35px;
+    background-color: #A2C6E8;
+    border-radius: 50%;
+}
+.color2{
+    width: 35px;
+    height: 35px;
+    background-color: #E7E3E0;
+    border-radius: 50%;
+}
+.color3{
+    width: 35px;
+    height: 35px;
+    background-color: #4A4B4D;
+    border-radius: 50%;
+}
+.color4{
+    width: 35px;
+    height: 35px;
+    background-color: #D2D7DB;
+    border-radius: 50%;
+}
+.color5{
+    width: 35px;
+    height: 35px;
+    background-color: #D9E0B3;
+    border-radius: 50%;
+}
+.color6{
+    width: 35px;
+    height: 35px;
+    background-color: #E48474;
+    border-radius: 50%;
+    
+}
+
+.informacion, .espacio-venta {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.informacion{
+    margin-bottom: 50px;
+}
+.music-sound, .choose-a-color, .see-product-details{
+    font-size: 12px;
+    color:#57626B;
+    margin-bottom: 5%;
+}
+.precio{
+    font-size: 20px;
+    color:#353A49;
+    font-weight: bold;
+    margin-bottom: 8%;
+    
+}
+.Infoabajo{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+.choose-a-color{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    margin-top: -5px;
+    border: 0.5px solid #353A49;
+    width: 100%;
+}
+
+/*ESPACIO VENTA*/
+.espacio-venta{
+    background-color: #F8F9FA;
+    padding: 1em;
+    margin-top: 5%;
+    margin-right: 7%;
+    border-radius: 4px; 
+    margin-left: 3%;
+}
+.preciogrande{
+    font-size: 35px;
+    color:#353A49;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+}
+.separator2 {
+    border: 0.5px solid #353A49;
+    width: 95%;
+    margin-bottom: 5%;
+}
+
+.anhadir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.addtocart{
+    width: 70%;
+    height: 4em;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 4px;  
+    font-weight: bold;
+}
+.deliverpack{
+    display: flex;
+    align-items: flex-end;
+}
+.cantidades {
+    width: 20%;
+    height: 4em;
+    border: 0.5px solid #353A49;
+    border-radius: 4px;
+    background-color: #F8F9FA;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+.primero{
+    margin-bottom: 10%;
+}
+.segundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+    font-size: 12px;
+    color:#57626B;
+    font-weight: bold;
+}
+.camion{
+    padding-right: 10px;
+}
+.numero{
+    color: #1a73e8 ;
+}
+
+
+/* Media query para tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+.imagenes-pequeñas {
+display: none;
+}
+.atras-flecha{
+    padding-right: 10px;
+    margin-top: -50px;
+    margin-left: -30px;
+
+
+}
+.see-product-details{
+margin-top: -40px;
+}
+
+.conjunto{
+    margin-left: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.derecha {
+    width: 100%;
+    margin-left: -150px;
+}
+.parte-baja {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: -150px;
+    width: 110%;
+    margin-top: -10px;
+}
+
+.choose-a-color{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.colores{
+    margin-top: -150px;
+}
+.espacio-venta{
+    background-color: #F8F9FA;
+    padding: 1em;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    border-radius: 4px; 
+    width: 140%;
+    margin-left: 40px;
+    
+    }
+
+    .separator {
+        border: 0.5px solid #353A49;
+        width: 170%;
+        margin-bottom: 5%;
+    }
+
+
+    .imagen-earbuds{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 132%;
+        height: 470px;
+        background-color: #F8F9FA;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-bottom: -60px;
+        margin-left: -120px;
+    
+    }
+    .imagen-icon {
+        display: flex;
+        width: 600px;
+        height: 400px;
+    }
+
+    }
+
+
+
+
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 767px){
+
+    .imagenes-pequeñas {
+        display: none;
+        }
+        .atras-flecha{
+            padding-right: 10px;
+            margin-top: -50px;
+            margin-left: -30px;
+        
+        
+        }
+        .see-product-details{
+        margin-top: -40px;
+        }
+        
+        .conjunto{
+            display: grid;
+            justify-content: center;
+            align-items: start;
+            width: 100%;
+        }
+        
+        .derecha {
+            width: 100%;
+            margin-left: -150px;
+        }
+        .parte-baja {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        .colores{
+            width: 100%;
+            margin-left: 70px;
+        }
+        
+        
+        .choose-a-color{
+            margin-top: 10px;
+            margin-bottom: 50px;
+
+        }
+
+        .titulo{
+            margin-left: 50px;
+        }
+        .colores{
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        .espacio-venta{
+            background-color: #F8F9FA;
+            padding: 1em;
+            margin-top: -10%;
+            margin-bottom: 10%;
+            border-radius: 4px; 
+            width: 100%;
+            margin-left: 60px;
+            
+            }
+        
+            .separator {
+                border: 0.5px solid #353A49;
+                width: 158%;
+                margin-bottom: 5%;
+            }
+        
+        
+            .imagen-earbuds{
+                display: grid;
+                grid-template-columns: 1fr;
+                width: 132%;
+                height: 470px;
+                background-color: #F8F9FA;
+                border-radius: 20px;
+                margin-top: 50px;
+                margin-right: 10px;
+                margin-bottom: -60px;
+                margin-left: -110px;
+            
+            }
+            .imagen-icon {
+                display: flex;
+                width: 600px;
+                height: 400px;
+            }
+
+
+}

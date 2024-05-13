@@ -1,0 +1,109 @@
+*{
+    font-family: 'inter', sans-serif ;
+}
+header {
+   
+    color: #57626B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:none;  
+    box-shadow: 0px 2px 10px #57626B;
+}
+.cabecero{
+    display:inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+p {
+    display: inline;
+    margin-right: 25px;
+    font-size: 12px;
+}
+a:active {
+    color: #1e61b9;
+}
+a:hover {
+    color: #57626B;
+  }
+  a:visited {
+    color: #57626B;
+  }
+  a:link {
+    color: #57626B;
+  }
+  a.watches {
+    text-decoration: none; /* Quita el subrayado */
+}
+.phones{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.watches{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.smart-home{
+    font-size: 12px;
+}
+.earbuds{
+    color: #1e61b9;
+    font-weight: bold;
+    font-size: 12px;
+}
+.accessories{
+    font-size: 12px; 
+}
+.iconos-arriba {
+    display: flex;
+    margin-right: 30px;
+}
+.iconos-arriba img {
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+}
+
+.logo-google{
+    height: 30px;
+    width: 35px;
+    top: 3px;
+    left: 19px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/* Media query para PC y TABLET */
+@media screen and (min-width: 768px) and (max-width: 2000px){
+.menucabecero{
+    display: none;
+}
+}
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 767px){
+.phones {
+display: none;
+}
+        
+.watches{
+    display: none;
+}
+.earbuds{
+    display: none;
+}
+.smart-home{
+    display: none;
+}
+.accessories{
+    display: none;
+
+}
+.menu{
+    display:block;
+    width:25px;
+}
+
+
+}
